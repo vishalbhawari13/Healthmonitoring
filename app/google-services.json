@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "169851652747",
+    "project_id": "pulseguard-healthmonitoringapp",
+    "storage_bucket": "pulseguard-healthmonitoringapp.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:169851652747:android:300fa350216bb2980ca28e",
+        "android_client_info": {
+          "package_name": "com.example.healthmonitoringapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "169851652747-693vafgq3jt10kvbi261lpm1qq6isf4t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.healthmonitoringapp",
+            "certificate_hash": "3094158a2e2f3284ccde8515e51c3f34391df335"
+          }
+        },
+        {
+          "client_id": "169851652747-3jkss9s2ugg77c19ur401f6bemecbvh2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNLlHbFmfWMUNRVprtxvVxMs9-_1Dj8YU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "169851652747-3jkss9s2ugg77c19ur401f6bemecbvh2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
