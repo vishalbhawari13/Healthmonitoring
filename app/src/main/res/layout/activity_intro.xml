@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
     android:padding="20dp"
+    android:background="@drawable/gradient_background"
     tools:context=".ui.IntroActivity">
 
     <!-- Welcome Text -->
@@ -14,21 +16,32 @@
         android:id="@+id/tvWelcome"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome to PulseGuard"
-        android:textSize="24sp"
+        android:text="@string/welcome_text"
+        android:textSize="28sp"
         android:textStyle="bold"
-        android:textColor="@color/black"
+        android:textColor="@android:color/white"
         android:gravity="center"
         android:paddingBottom="20dp"/>
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:src="@drawable/ic_health_logo"
+        android:scaleType="fitCenter"
+        android:layout_marginBottom="30dp"/>
 
     <!-- Google Sign-In Button -->
     <com.google.android.material.button.MaterialButton
         android:id="@+id/btnGoogleSignIn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Sign in with Google"
-        android:textSize="16sp"
-        android:padding="12dp"
-        android:backgroundTint="@color/teal_700"
+        android:text="@string/sign_in_google"
+        android:textSize="18sp"
+        android:padding="14dp"
+        app:cornerRadius="30dp"
+        android:elevation="6dp"
+        app:backgroundTint="@color/google_blue"
         android:textColor="@android:color/white"/>
 </LinearLayout>

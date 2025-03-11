@@ -9,5 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="red">#D32F2F</color>  <!-- Material Red -->
     <color name="gray">#757575</color>  <!-- Material Gray -->
+    <color name="google_blue">#4285F4</color>
+
 
 </resources>
