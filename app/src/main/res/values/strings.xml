@@ -3,4 +3,10 @@
     <string name="app_name">PulseGuard</string>
     <string name="welcome_text">Welcome to PulseGuard</string>
     <string name="sign_in_google">Sign in with Google</string>
+    <string name="sign_in_prompt">Welcome! Please sign in to continue.</string>
+    <string name="sign_in_failed">Google sign-in failed. Please try again.</string>
+    <string name="auth_failed">Authentication failed. Please try again.</string>
+    <string name="email_not_found">Email not found. Unable to proceed.</string>
+    <string name="welcome_message">Welcome to PulseGuard!</string>
+    <string name="default_web_client_id">169851652747-3jkss9s2ugg77c19ur401f6bemecbvh2.apps.googleusercontent.com</string>
 </resources>
